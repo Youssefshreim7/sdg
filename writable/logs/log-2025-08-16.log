@@ -1,0 +1,485 @@
+INFO - 2025-08-16 23:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-16 23:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-16 23:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-16 23:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-16 23:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-16 23:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-16 23:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-16 23:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-16 23:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-16 23:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-16 23:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-16 23:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-16 23:47:53 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\xampp\htdocs\hirenass\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\hirenass\system\Database\MySQLi\Connection.php(312): mysqli->query('\r\n        SELEC...', 0)
+#1 C:\xampp\htdocs\hirenass\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 C:\xampp\htdocs\hirenass\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 C:\xampp\htdocs\hirenass\app\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 C:\xampp\htdocs\hirenass\app\Controllers\Cms\Items.php(79): App\Models\Cms\SuperModel->selectSingleData_m('items', 'assets')
+#5 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(933): App\Controllers\Cms\Items->items_form('assets', 'libs', 'flatpickr', 'flatpickr.min.j...')
+#6 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Items))
+#7 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hirenass\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hirenass\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\hirenass\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-08-16 23:47:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+[Method: GET, Route: cms/items/items_form/assets/libs/flatpickr/flatpickr.min.js]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          items
+        WHERE
+          id = assets
+', [...])
+ 2 APPPATH\Controllers\Cms\Items.php(79): App\Models\Cms\SuperModel->selectSingleData_m('items', 'assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Items->items_form('assets', 'libs', 'flatpickr', 'flatpickr.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Items))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-16 23:47:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT
+          *
+        FROM
+          items
+        WHERE
+          id = assets
+')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT
+          *
+        FROM
+          items
+        WHERE
+          id = assets
+')
+ 3 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          items
+        WHERE
+          id = assets
+', [...])
+ 4 APPPATH\Controllers\Cms\Items.php(79): App\Models\Cms\SuperModel->selectSingleData_m('items', 'assets')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Items->items_form('assets', 'libs', 'flatpickr', 'flatpickr.min.js')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Items))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-16 23:47:53 --> [Caused by] mysqli_sql_exception: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('
+        SELECT
+          *
+        FROM
+          items
+        WHERE
+          id = assets
+', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT
+          *
+        FROM
+          items
+        WHERE
+          id = assets
+')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT
+          *
+        FROM
+          items
+        WHERE
+          id = assets
+')
+ 4 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          items
+        WHERE
+          id = assets
+', [...])
+ 5 APPPATH\Controllers\Cms\Items.php(79): App\Models\Cms\SuperModel->selectSingleData_m('items', 'assets')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Items->items_form('assets', 'libs', 'flatpickr', 'flatpickr.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Items))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-08-16 23:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-16 23:47:53 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\xampp\htdocs\hirenass\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\hirenass\system\Database\MySQLi\Connection.php(312): mysqli->query('\r\n        SELEC...', 0)
+#1 C:\xampp\htdocs\hirenass\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 C:\xampp\htdocs\hirenass\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 C:\xampp\htdocs\hirenass\app\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 C:\xampp\htdocs\hirenass\app\Controllers\Cms\Items.php(79): App\Models\Cms\SuperModel->selectSingleData_m('items', 'assets')
+#5 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(933): App\Controllers\Cms\Items->items_form('assets', 'libs', 'choices.js', 'public', 'assets', 'scripts', 'choices.min.js')
+#6 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Items))
+#7 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hirenass\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hirenass\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\hirenass\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-08-16 23:47:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+[Method: GET, Route: cms/items/items_form/assets/libs/choices.js/public/assets/scripts/choices.min.js]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          items
+        WHERE
+          id = assets
+', [...])
+ 2 APPPATH\Controllers\Cms\Items.php(79): App\Models\Cms\SuperModel->selectSingleData_m('items', 'assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Items->items_form('assets', 'libs', 'choices.js', 'public', 'assets', 'scripts', 'choices.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Items))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-16 23:47:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT
+          *
+        FROM
+          items
+        WHERE
+          id = assets
+')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT
+          *
+        FROM
+          items
+        WHERE
+          id = assets
+')
+ 3 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          items
+        WHERE
+          id = assets
+', [...])
+ 4 APPPATH\Controllers\Cms\Items.php(79): App\Models\Cms\SuperModel->selectSingleData_m('items', 'assets')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Items->items_form('assets', 'libs', 'choices.js', 'public', 'assets', 'scripts', 'choices.min.js')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Items))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-16 23:47:53 --> [Caused by] mysqli_sql_exception: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('
+        SELECT
+          *
+        FROM
+          items
+        WHERE
+          id = assets
+', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT
+          *
+        FROM
+          items
+        WHERE
+          id = assets
+')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT
+          *
+        FROM
+          items
+        WHERE
+          id = assets
+')
+ 4 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          items
+        WHERE
+          id = assets
+', [...])
+ 5 APPPATH\Controllers\Cms\Items.php(79): App\Models\Cms\SuperModel->selectSingleData_m('items', 'assets')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Items->items_form('assets', 'libs', 'choices.js', 'public', 'assets', 'scripts', 'choices.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Items))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-08-16 23:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-16 23:47:57 --> ParseError: Unclosed '{' on line 180
+[Method: POST, Route: Cms/items/items_save]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 360.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\hirenass\\system\\HTTP\\Files\\UploadedFile.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\HTTP\\Files\\UploadedFile')
+ 3 SYSTEMPATH\HTTP\Files\FileCollection.php(186): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\HTTP\\Files\\UploadedFile')
+ 4 SYSTEMPATH\HTTP\Files\FileCollection.php(160): CodeIgniter\HTTP\Files\FileCollection->createFileObject([...])
+ 5 SYSTEMPATH\HTTP\Files\FileCollection.php(59): CodeIgniter\HTTP\Files\FileCollection->populateFiles()
+ 6 SYSTEMPATH\HTTP\IncomingRequest.php(881): CodeIgniter\HTTP\Files\FileCollection->getFile('image')
+ 7 APPPATH\Controllers\Cms\Items.php(93): CodeIgniter\HTTP\IncomingRequest->getFile('image')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Items->items_save()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Items))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-08-16 23:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-16 23:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-16 23:55:51 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\xampp\htdocs\hirenass\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\hirenass\system\Database\MySQLi\Connection.php(312): mysqli->query('\r\n        SELEC...', 0)
+#1 C:\xampp\htdocs\hirenass\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 C:\xampp\htdocs\hirenass\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 C:\xampp\htdocs\hirenass\app\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 C:\xampp\htdocs\hirenass\app\Controllers\Cms\Items.php(79): App\Models\Cms\SuperModel->selectSingleData_m('items', 'assets')
+#5 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(933): App\Controllers\Cms\Items->items_form('assets', 'libs', 'choices.js', 'public', 'assets', 'scripts', 'choices.min.js')
+#6 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Items))
+#7 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hirenass\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hirenass\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\hirenass\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-08-16 23:55:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+[Method: GET, Route: cms/items/items_form/assets/libs/choices.js/public/assets/scripts/choices.min.js]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          items
+        WHERE
+          id = assets
+', [...])
+ 2 APPPATH\Controllers\Cms\Items.php(79): App\Models\Cms\SuperModel->selectSingleData_m('items', 'assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Items->items_form('assets', 'libs', 'choices.js', 'public', 'assets', 'scripts', 'choices.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Items))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-16 23:55:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT
+          *
+        FROM
+          items
+        WHERE
+          id = assets
+')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT
+          *
+        FROM
+          items
+        WHERE
+          id = assets
+')
+ 3 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          items
+        WHERE
+          id = assets
+', [...])
+ 4 APPPATH\Controllers\Cms\Items.php(79): App\Models\Cms\SuperModel->selectSingleData_m('items', 'assets')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Items->items_form('assets', 'libs', 'choices.js', 'public', 'assets', 'scripts', 'choices.min.js')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Items))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-16 23:55:51 --> [Caused by] mysqli_sql_exception: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('
+        SELECT
+          *
+        FROM
+          items
+        WHERE
+          id = assets
+', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT
+          *
+        FROM
+          items
+        WHERE
+          id = assets
+')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT
+          *
+        FROM
+          items
+        WHERE
+          id = assets
+')
+ 4 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          items
+        WHERE
+          id = assets
+', [...])
+ 5 APPPATH\Controllers\Cms\Items.php(79): App\Models\Cms\SuperModel->selectSingleData_m('items', 'assets')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Items->items_form('assets', 'libs', 'choices.js', 'public', 'assets', 'scripts', 'choices.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Items))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-08-16 23:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-16 23:55:51 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\xampp\htdocs\hirenass\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\hirenass\system\Database\MySQLi\Connection.php(312): mysqli->query('\r\n        SELEC...', 0)
+#1 C:\xampp\htdocs\hirenass\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 C:\xampp\htdocs\hirenass\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 C:\xampp\htdocs\hirenass\app\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 C:\xampp\htdocs\hirenass\app\Controllers\Cms\Items.php(79): App\Models\Cms\SuperModel->selectSingleData_m('items', 'assets')
+#5 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(933): App\Controllers\Cms\Items->items_form('assets', 'libs', 'flatpickr', 'flatpickr.min.j...')
+#6 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Items))
+#7 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hirenass\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hirenass\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\hirenass\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-08-16 23:55:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+[Method: GET, Route: cms/items/items_form/assets/libs/flatpickr/flatpickr.min.js]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          items
+        WHERE
+          id = assets
+', [...])
+ 2 APPPATH\Controllers\Cms\Items.php(79): App\Models\Cms\SuperModel->selectSingleData_m('items', 'assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Items->items_form('assets', 'libs', 'flatpickr', 'flatpickr.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Items))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-16 23:55:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT
+          *
+        FROM
+          items
+        WHERE
+          id = assets
+')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT
+          *
+        FROM
+          items
+        WHERE
+          id = assets
+')
+ 3 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          items
+        WHERE
+          id = assets
+', [...])
+ 4 APPPATH\Controllers\Cms\Items.php(79): App\Models\Cms\SuperModel->selectSingleData_m('items', 'assets')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Items->items_form('assets', 'libs', 'flatpickr', 'flatpickr.min.js')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Items))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-16 23:55:51 --> [Caused by] mysqli_sql_exception: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('
+        SELECT
+          *
+        FROM
+          items
+        WHERE
+          id = assets
+', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT
+          *
+        FROM
+          items
+        WHERE
+          id = assets
+')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT
+          *
+        FROM
+          items
+        WHERE
+          id = assets
+')
+ 4 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          items
+        WHERE
+          id = assets
+', [...])
+ 5 APPPATH\Controllers\Cms\Items.php(79): App\Models\Cms\SuperModel->selectSingleData_m('items', 'assets')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Items->items_form('assets', 'libs', 'flatpickr', 'flatpickr.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Items))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-08-16 23:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-16 23:55:54 --> ParseError: Unclosed '{' on line 180
+[Method: POST, Route: Cms/items/items_save]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 360.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\hirenass\\system\\HTTP\\Files\\UploadedFile.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\HTTP\\Files\\UploadedFile')
+ 3 SYSTEMPATH\HTTP\Files\FileCollection.php(186): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\HTTP\\Files\\UploadedFile')
+ 4 SYSTEMPATH\HTTP\Files\FileCollection.php(160): CodeIgniter\HTTP\Files\FileCollection->createFileObject([...])
+ 5 SYSTEMPATH\HTTP\Files\FileCollection.php(59): CodeIgniter\HTTP\Files\FileCollection->populateFiles()
+ 6 SYSTEMPATH\HTTP\IncomingRequest.php(881): CodeIgniter\HTTP\Files\FileCollection->getFile('image')
+ 7 APPPATH\Controllers\Cms\Items.php(93): CodeIgniter\HTTP\IncomingRequest->getFile('image')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Items->items_save()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Items))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-08-16 23:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-16 23:56:01 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: Cms/items/items_save]
+in APPPATH\Controllers\Cms\Items.php on line 89.
+ 1 APPPATH\Controllers\Cms\Items.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\hirenass\\app\\Controllers\\Cms\\Items.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Items->items_save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Items))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

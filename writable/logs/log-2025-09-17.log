@@ -1,0 +1,1521 @@
+INFO - 2025-09-17 09:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 09:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 09:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 09:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 09:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 09:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 09:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 09:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 09:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 09:40:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 09:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 09:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 09:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 09:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 09:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 09:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 09:51:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 09:52:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 09:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 09:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 09:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 09:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 09:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 09:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:05:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:08:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-17 10:09:39 --> ErrorException: Undefined array key "date"
+[Method: GET, Route: home/projectsdetails/3]
+in APPPATH\Views\public\projectsdetails.php on line 54.
+ 1 APPPATH\Views\public\projectsdetails.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date"', 'C:\\xampp\\htdocs\\goalinter\\app\\Views\\public\\projectsdetails.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\goalinter\\app\\Views\\public\\projectsdetails.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('public/projectsdetails', [], true)
+ 5 APPPATH\Controllers\Home.php(608): view('public/projectsdetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->projectsdetails('3')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-09-17 10:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:11:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-17 10:11:22 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\xampp\htdocs\goalinter\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\goalinter\system\Database\MySQLi\Connection.php(312): mysqli->query('\r\n        SELEC...', 0)
+#1 C:\xampp\htdocs\goalinter\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 C:\xampp\htdocs\goalinter\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 C:\xampp\htdocs\goalinter\app\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 C:\xampp\htdocs\goalinter\app\Controllers\Cms\Projects.php(79): App\Models\Cms\SuperModel->selectSingleData_m('projects', 'assets')
+#5 C:\xampp\htdocs\goalinter\system\CodeIgniter.php(933): App\Controllers\Cms\Projects->projects_form('assets', 'libs', 'choices.js', 'public', 'assets', 'scripts', 'choices.min.js')
+#6 C:\xampp\htdocs\goalinter\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Projects))
+#7 C:\xampp\htdocs\goalinter\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\goalinter\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\goalinter\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\goalinter\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-09-17 10:11:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+[Method: GET, Route: cms/projects/projects_form/assets/libs/choices.js/public/assets/scripts/choices.min.js]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          projects
+        WHERE
+          id = assets
+', [...])
+ 2 APPPATH\Controllers\Cms\Projects.php(79): App\Models\Cms\SuperModel->selectSingleData_m('projects', 'assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Projects->projects_form('assets', 'libs', 'choices.js', 'public', 'assets', 'scripts', 'choices.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Projects))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 10:11:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT
+          *
+        FROM
+          projects
+        WHERE
+          id = assets
+')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT
+          *
+        FROM
+          projects
+        WHERE
+          id = assets
+')
+ 3 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          projects
+        WHERE
+          id = assets
+', [...])
+ 4 APPPATH\Controllers\Cms\Projects.php(79): App\Models\Cms\SuperModel->selectSingleData_m('projects', 'assets')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Projects->projects_form('assets', 'libs', 'choices.js', 'public', 'assets', 'scripts', 'choices.min.js')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Projects))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 10:11:22 --> [Caused by] mysqli_sql_exception: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('
+        SELECT
+          *
+        FROM
+          projects
+        WHERE
+          id = assets
+', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT
+          *
+        FROM
+          projects
+        WHERE
+          id = assets
+')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT
+          *
+        FROM
+          projects
+        WHERE
+          id = assets
+')
+ 4 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          projects
+        WHERE
+          id = assets
+', [...])
+ 5 APPPATH\Controllers\Cms\Projects.php(79): App\Models\Cms\SuperModel->selectSingleData_m('projects', 'assets')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Projects->projects_form('assets', 'libs', 'choices.js', 'public', 'assets', 'scripts', 'choices.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Projects))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-09-17 10:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-17 10:11:22 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\xampp\htdocs\goalinter\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\goalinter\system\Database\MySQLi\Connection.php(312): mysqli->query('\r\n        SELEC...', 0)
+#1 C:\xampp\htdocs\goalinter\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 C:\xampp\htdocs\goalinter\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 C:\xampp\htdocs\goalinter\app\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 C:\xampp\htdocs\goalinter\app\Controllers\Cms\Projects.php(79): App\Models\Cms\SuperModel->selectSingleData_m('projects', 'assets')
+#5 C:\xampp\htdocs\goalinter\system\CodeIgniter.php(933): App\Controllers\Cms\Projects->projects_form('assets', 'libs', 'flatpickr', 'flatpickr.min.j...')
+#6 C:\xampp\htdocs\goalinter\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Projects))
+#7 C:\xampp\htdocs\goalinter\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\goalinter\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\goalinter\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\goalinter\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-09-17 10:11:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+[Method: GET, Route: cms/projects/projects_form/assets/libs/flatpickr/flatpickr.min.js]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          projects
+        WHERE
+          id = assets
+', [...])
+ 2 APPPATH\Controllers\Cms\Projects.php(79): App\Models\Cms\SuperModel->selectSingleData_m('projects', 'assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Projects->projects_form('assets', 'libs', 'flatpickr', 'flatpickr.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Projects))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 10:11:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT
+          *
+        FROM
+          projects
+        WHERE
+          id = assets
+')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT
+          *
+        FROM
+          projects
+        WHERE
+          id = assets
+')
+ 3 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          projects
+        WHERE
+          id = assets
+', [...])
+ 4 APPPATH\Controllers\Cms\Projects.php(79): App\Models\Cms\SuperModel->selectSingleData_m('projects', 'assets')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Projects->projects_form('assets', 'libs', 'flatpickr', 'flatpickr.min.js')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Projects))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 10:11:22 --> [Caused by] mysqli_sql_exception: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('
+        SELECT
+          *
+        FROM
+          projects
+        WHERE
+          id = assets
+', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT
+          *
+        FROM
+          projects
+        WHERE
+          id = assets
+')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT
+          *
+        FROM
+          projects
+        WHERE
+          id = assets
+')
+ 4 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          projects
+        WHERE
+          id = assets
+', [...])
+ 5 APPPATH\Controllers\Cms\Projects.php(79): App\Models\Cms\SuperModel->selectSingleData_m('projects', 'assets')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Projects->projects_form('assets', 'libs', 'flatpickr', 'flatpickr.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Projects))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-09-17 10:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:30:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:30:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-17 10:47:52 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\xampp\htdocs\goalinter\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\goalinter\system\Database\MySQLi\Connection.php(312): mysqli->query('\r\n        SELEC...', 0)
+#1 C:\xampp\htdocs\goalinter\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 C:\xampp\htdocs\goalinter\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 C:\xampp\htdocs\goalinter\app\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 C:\xampp\htdocs\goalinter\app\Controllers\Cms\Projects.php(79): App\Models\Cms\SuperModel->selectSingleData_m('projects', 'assets')
+#5 C:\xampp\htdocs\goalinter\system\CodeIgniter.php(933): App\Controllers\Cms\Projects->projects_form('assets', 'libs', 'choices.js', 'public', 'assets', 'scripts', 'choices.min.js')
+#6 C:\xampp\htdocs\goalinter\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Projects))
+#7 C:\xampp\htdocs\goalinter\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\goalinter\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\goalinter\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\goalinter\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-09-17 10:47:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+[Method: GET, Route: cms/projects/projects_form/assets/libs/choices.js/public/assets/scripts/choices.min.js]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          projects
+        WHERE
+          id = assets
+', [...])
+ 2 APPPATH\Controllers\Cms\Projects.php(79): App\Models\Cms\SuperModel->selectSingleData_m('projects', 'assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Projects->projects_form('assets', 'libs', 'choices.js', 'public', 'assets', 'scripts', 'choices.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Projects))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 10:47:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT
+          *
+        FROM
+          projects
+        WHERE
+          id = assets
+')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT
+          *
+        FROM
+          projects
+        WHERE
+          id = assets
+')
+ 3 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          projects
+        WHERE
+          id = assets
+', [...])
+ 4 APPPATH\Controllers\Cms\Projects.php(79): App\Models\Cms\SuperModel->selectSingleData_m('projects', 'assets')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Projects->projects_form('assets', 'libs', 'choices.js', 'public', 'assets', 'scripts', 'choices.min.js')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Projects))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 10:47:52 --> [Caused by] mysqli_sql_exception: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('
+        SELECT
+          *
+        FROM
+          projects
+        WHERE
+          id = assets
+', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT
+          *
+        FROM
+          projects
+        WHERE
+          id = assets
+')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT
+          *
+        FROM
+          projects
+        WHERE
+          id = assets
+')
+ 4 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          projects
+        WHERE
+          id = assets
+', [...])
+ 5 APPPATH\Controllers\Cms\Projects.php(79): App\Models\Cms\SuperModel->selectSingleData_m('projects', 'assets')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Projects->projects_form('assets', 'libs', 'choices.js', 'public', 'assets', 'scripts', 'choices.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Projects))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-09-17 10:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-17 10:47:52 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\xampp\htdocs\goalinter\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\goalinter\system\Database\MySQLi\Connection.php(312): mysqli->query('\r\n        SELEC...', 0)
+#1 C:\xampp\htdocs\goalinter\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 C:\xampp\htdocs\goalinter\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 C:\xampp\htdocs\goalinter\app\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 C:\xampp\htdocs\goalinter\app\Controllers\Cms\Projects.php(79): App\Models\Cms\SuperModel->selectSingleData_m('projects', 'assets')
+#5 C:\xampp\htdocs\goalinter\system\CodeIgniter.php(933): App\Controllers\Cms\Projects->projects_form('assets', 'libs', 'flatpickr', 'flatpickr.min.j...')
+#6 C:\xampp\htdocs\goalinter\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Projects))
+#7 C:\xampp\htdocs\goalinter\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\goalinter\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\goalinter\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\goalinter\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-09-17 10:47:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+[Method: GET, Route: cms/projects/projects_form/assets/libs/flatpickr/flatpickr.min.js]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          projects
+        WHERE
+          id = assets
+', [...])
+ 2 APPPATH\Controllers\Cms\Projects.php(79): App\Models\Cms\SuperModel->selectSingleData_m('projects', 'assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Projects->projects_form('assets', 'libs', 'flatpickr', 'flatpickr.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Projects))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 10:47:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT
+          *
+        FROM
+          projects
+        WHERE
+          id = assets
+')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT
+          *
+        FROM
+          projects
+        WHERE
+          id = assets
+')
+ 3 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          projects
+        WHERE
+          id = assets
+', [...])
+ 4 APPPATH\Controllers\Cms\Projects.php(79): App\Models\Cms\SuperModel->selectSingleData_m('projects', 'assets')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Projects->projects_form('assets', 'libs', 'flatpickr', 'flatpickr.min.js')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Projects))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 10:47:52 --> [Caused by] mysqli_sql_exception: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('
+        SELECT
+          *
+        FROM
+          projects
+        WHERE
+          id = assets
+', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT
+          *
+        FROM
+          projects
+        WHERE
+          id = assets
+')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT
+          *
+        FROM
+          projects
+        WHERE
+          id = assets
+')
+ 4 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          projects
+        WHERE
+          id = assets
+', [...])
+ 5 APPPATH\Controllers\Cms\Projects.php(79): App\Models\Cms\SuperModel->selectSingleData_m('projects', 'assets')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Projects->projects_form('assets', 'libs', 'flatpickr', 'flatpickr.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Projects))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-09-17 10:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:48:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 10:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 11:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 11:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 11:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 11:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 11:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 11:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 11:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 11:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 11:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 11:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 11:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-17 11:27:11 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\xampp\htdocs\goalinter\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\goalinter\system\Database\MySQLi\Connection.php(312): mysqli->query('\r\n        SELEC...', 0)
+#1 C:\xampp\htdocs\goalinter\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 C:\xampp\htdocs\goalinter\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 C:\xampp\htdocs\goalinter\app\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 C:\xampp\htdocs\goalinter\app\Controllers\Cms\Slider.php(74): App\Models\Cms\SuperModel->selectSingleData_m('sliders', 'assets')
+#5 C:\xampp\htdocs\goalinter\system\CodeIgniter.php(933): App\Controllers\Cms\Slider->slider_form('assets', 'libs', 'flatpickr', 'flatpickr.min.j...')
+#6 C:\xampp\htdocs\goalinter\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Slider))
+#7 C:\xampp\htdocs\goalinter\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\goalinter\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\goalinter\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\goalinter\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-09-17 11:27:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+[Method: GET, Route: cms/slider/slider_form/assets/libs/flatpickr/flatpickr.min.js]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          sliders
+        WHERE
+          id = assets
+', [...])
+ 2 APPPATH\Controllers\Cms\Slider.php(74): App\Models\Cms\SuperModel->selectSingleData_m('sliders', 'assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Slider->slider_form('assets', 'libs', 'flatpickr', 'flatpickr.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Slider))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 11:27:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT
+          *
+        FROM
+          sliders
+        WHERE
+          id = assets
+')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT
+          *
+        FROM
+          sliders
+        WHERE
+          id = assets
+')
+ 3 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          sliders
+        WHERE
+          id = assets
+', [...])
+ 4 APPPATH\Controllers\Cms\Slider.php(74): App\Models\Cms\SuperModel->selectSingleData_m('sliders', 'assets')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Slider->slider_form('assets', 'libs', 'flatpickr', 'flatpickr.min.js')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Slider))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 11:27:11 --> [Caused by] mysqli_sql_exception: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('
+        SELECT
+          *
+        FROM
+          sliders
+        WHERE
+          id = assets
+', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT
+          *
+        FROM
+          sliders
+        WHERE
+          id = assets
+')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT
+          *
+        FROM
+          sliders
+        WHERE
+          id = assets
+')
+ 4 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          sliders
+        WHERE
+          id = assets
+', [...])
+ 5 APPPATH\Controllers\Cms\Slider.php(74): App\Models\Cms\SuperModel->selectSingleData_m('sliders', 'assets')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Slider->slider_form('assets', 'libs', 'flatpickr', 'flatpickr.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Slider))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-09-17 11:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-17 11:27:11 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\xampp\htdocs\goalinter\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\goalinter\system\Database\MySQLi\Connection.php(312): mysqli->query('\r\n        SELEC...', 0)
+#1 C:\xampp\htdocs\goalinter\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 C:\xampp\htdocs\goalinter\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 C:\xampp\htdocs\goalinter\app\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 C:\xampp\htdocs\goalinter\app\Controllers\Cms\Slider.php(74): App\Models\Cms\SuperModel->selectSingleData_m('sliders', 'assets')
+#5 C:\xampp\htdocs\goalinter\system\CodeIgniter.php(933): App\Controllers\Cms\Slider->slider_form('assets', 'libs', 'choices.js', 'public', 'assets', 'scripts', 'choices.min.js')
+#6 C:\xampp\htdocs\goalinter\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Slider))
+#7 C:\xampp\htdocs\goalinter\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\goalinter\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\goalinter\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\goalinter\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-09-17 11:27:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+[Method: GET, Route: cms/slider/slider_form/assets/libs/choices.js/public/assets/scripts/choices.min.js]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          sliders
+        WHERE
+          id = assets
+', [...])
+ 2 APPPATH\Controllers\Cms\Slider.php(74): App\Models\Cms\SuperModel->selectSingleData_m('sliders', 'assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Slider->slider_form('assets', 'libs', 'choices.js', 'public', 'assets', 'scripts', 'choices.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Slider))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 11:27:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT
+          *
+        FROM
+          sliders
+        WHERE
+          id = assets
+')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT
+          *
+        FROM
+          sliders
+        WHERE
+          id = assets
+')
+ 3 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          sliders
+        WHERE
+          id = assets
+', [...])
+ 4 APPPATH\Controllers\Cms\Slider.php(74): App\Models\Cms\SuperModel->selectSingleData_m('sliders', 'assets')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Slider->slider_form('assets', 'libs', 'choices.js', 'public', 'assets', 'scripts', 'choices.min.js')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Slider))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 11:27:11 --> [Caused by] mysqli_sql_exception: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('
+        SELECT
+          *
+        FROM
+          sliders
+        WHERE
+          id = assets
+', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT
+          *
+        FROM
+          sliders
+        WHERE
+          id = assets
+')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT
+          *
+        FROM
+          sliders
+        WHERE
+          id = assets
+')
+ 4 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          sliders
+        WHERE
+          id = assets
+', [...])
+ 5 APPPATH\Controllers\Cms\Slider.php(74): App\Models\Cms\SuperModel->selectSingleData_m('sliders', 'assets')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Slider->slider_form('assets', 'libs', 'choices.js', 'public', 'assets', 'scripts', 'choices.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Slider))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-09-17 11:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 11:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 11:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 11:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 11:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 11:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 11:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-17 11:33:15 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\xampp\htdocs\goalinter\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\goalinter\system\Database\MySQLi\Connection.php(312): mysqli->query('\r\n        SELEC...', 0)
+#1 C:\xampp\htdocs\goalinter\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 C:\xampp\htdocs\goalinter\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 C:\xampp\htdocs\goalinter\app\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 C:\xampp\htdocs\goalinter\app\Controllers\Cms\Slider.php(74): App\Models\Cms\SuperModel->selectSingleData_m('sliders', 'assets')
+#5 C:\xampp\htdocs\goalinter\system\CodeIgniter.php(933): App\Controllers\Cms\Slider->slider_form('assets', 'libs', 'flatpickr', 'flatpickr.min.j...')
+#6 C:\xampp\htdocs\goalinter\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Slider))
+#7 C:\xampp\htdocs\goalinter\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\goalinter\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\goalinter\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\goalinter\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-09-17 11:33:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+[Method: GET, Route: cms/slider/slider_form/assets/libs/flatpickr/flatpickr.min.js]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          sliders
+        WHERE
+          id = assets
+', [...])
+ 2 APPPATH\Controllers\Cms\Slider.php(74): App\Models\Cms\SuperModel->selectSingleData_m('sliders', 'assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Slider->slider_form('assets', 'libs', 'flatpickr', 'flatpickr.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Slider))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 11:33:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT
+          *
+        FROM
+          sliders
+        WHERE
+          id = assets
+')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT
+          *
+        FROM
+          sliders
+        WHERE
+          id = assets
+')
+ 3 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          sliders
+        WHERE
+          id = assets
+', [...])
+ 4 APPPATH\Controllers\Cms\Slider.php(74): App\Models\Cms\SuperModel->selectSingleData_m('sliders', 'assets')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Slider->slider_form('assets', 'libs', 'flatpickr', 'flatpickr.min.js')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Slider))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 11:33:15 --> [Caused by] mysqli_sql_exception: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('
+        SELECT
+          *
+        FROM
+          sliders
+        WHERE
+          id = assets
+', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT
+          *
+        FROM
+          sliders
+        WHERE
+          id = assets
+')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT
+          *
+        FROM
+          sliders
+        WHERE
+          id = assets
+')
+ 4 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          sliders
+        WHERE
+          id = assets
+', [...])
+ 5 APPPATH\Controllers\Cms\Slider.php(74): App\Models\Cms\SuperModel->selectSingleData_m('sliders', 'assets')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Slider->slider_form('assets', 'libs', 'flatpickr', 'flatpickr.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Slider))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-09-17 11:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-17 11:33:15 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\xampp\htdocs\goalinter\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\goalinter\system\Database\MySQLi\Connection.php(312): mysqli->query('\r\n        SELEC...', 0)
+#1 C:\xampp\htdocs\goalinter\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 C:\xampp\htdocs\goalinter\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 C:\xampp\htdocs\goalinter\app\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 C:\xampp\htdocs\goalinter\app\Controllers\Cms\Slider.php(74): App\Models\Cms\SuperModel->selectSingleData_m('sliders', 'assets')
+#5 C:\xampp\htdocs\goalinter\system\CodeIgniter.php(933): App\Controllers\Cms\Slider->slider_form('assets', 'libs', 'choices.js', 'public', 'assets', 'scripts', 'choices.min.js')
+#6 C:\xampp\htdocs\goalinter\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Slider))
+#7 C:\xampp\htdocs\goalinter\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\goalinter\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\goalinter\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\goalinter\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-09-17 11:33:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+[Method: GET, Route: cms/slider/slider_form/assets/libs/choices.js/public/assets/scripts/choices.min.js]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          sliders
+        WHERE
+          id = assets
+', [...])
+ 2 APPPATH\Controllers\Cms\Slider.php(74): App\Models\Cms\SuperModel->selectSingleData_m('sliders', 'assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Slider->slider_form('assets', 'libs', 'choices.js', 'public', 'assets', 'scripts', 'choices.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Slider))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 11:33:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT
+          *
+        FROM
+          sliders
+        WHERE
+          id = assets
+')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT
+          *
+        FROM
+          sliders
+        WHERE
+          id = assets
+')
+ 3 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          sliders
+        WHERE
+          id = assets
+', [...])
+ 4 APPPATH\Controllers\Cms\Slider.php(74): App\Models\Cms\SuperModel->selectSingleData_m('sliders', 'assets')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Slider->slider_form('assets', 'libs', 'choices.js', 'public', 'assets', 'scripts', 'choices.min.js')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Slider))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 11:33:16 --> [Caused by] mysqli_sql_exception: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('
+        SELECT
+          *
+        FROM
+          sliders
+        WHERE
+          id = assets
+', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT
+          *
+        FROM
+          sliders
+        WHERE
+          id = assets
+')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT
+          *
+        FROM
+          sliders
+        WHERE
+          id = assets
+')
+ 4 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          sliders
+        WHERE
+          id = assets
+', [...])
+ 5 APPPATH\Controllers\Cms\Slider.php(74): App\Models\Cms\SuperModel->selectSingleData_m('sliders', 'assets')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Slider->slider_form('assets', 'libs', 'choices.js', 'public', 'assets', 'scripts', 'choices.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Slider))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-09-17 11:33:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 11:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 11:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 11:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 11:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 11:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 11:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 11:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 11:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 11:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 11:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 11:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 11:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 11:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 11:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 11:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 11:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 11:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 11:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 12:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 12:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 12:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 12:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 12:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 12:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 12:11:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 12:11:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 12:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 12:14:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 12:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 12:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 12:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 12:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 13:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 13:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 13:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 13:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 13:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 13:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-17 13:54:14 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\xampp\htdocs\goalinter\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\goalinter\system\Database\MySQLi\Connection.php(312): mysqli->query('\r\n        SELEC...', 0)
+#1 C:\xampp\htdocs\goalinter\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 C:\xampp\htdocs\goalinter\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 C:\xampp\htdocs\goalinter\app\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 C:\xampp\htdocs\goalinter\app\Controllers\Cms\About.php(74): App\Models\Cms\SuperModel->selectSingleData_m('about', 'assets')
+#5 C:\xampp\htdocs\goalinter\system\CodeIgniter.php(933): App\Controllers\Cms\About->about_form('assets', 'libs', 'choices.js', 'public', 'assets', 'scripts', 'choices.min.js')
+#6 C:\xampp\htdocs\goalinter\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\About))
+#7 C:\xampp\htdocs\goalinter\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\goalinter\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\goalinter\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\goalinter\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-09-17 13:54:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+[Method: GET, Route: cms/about/about_form/assets/libs/choices.js/public/assets/scripts/choices.min.js]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          about
+        WHERE
+          id = assets
+', [...])
+ 2 APPPATH\Controllers\Cms\About.php(74): App\Models\Cms\SuperModel->selectSingleData_m('about', 'assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\About->about_form('assets', 'libs', 'choices.js', 'public', 'assets', 'scripts', 'choices.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\About))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 13:54:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT
+          *
+        FROM
+          about
+        WHERE
+          id = assets
+')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT
+          *
+        FROM
+          about
+        WHERE
+          id = assets
+')
+ 3 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          about
+        WHERE
+          id = assets
+', [...])
+ 4 APPPATH\Controllers\Cms\About.php(74): App\Models\Cms\SuperModel->selectSingleData_m('about', 'assets')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\About->about_form('assets', 'libs', 'choices.js', 'public', 'assets', 'scripts', 'choices.min.js')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\About))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 13:54:14 --> [Caused by] mysqli_sql_exception: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('
+        SELECT
+          *
+        FROM
+          about
+        WHERE
+          id = assets
+', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT
+          *
+        FROM
+          about
+        WHERE
+          id = assets
+')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT
+          *
+        FROM
+          about
+        WHERE
+          id = assets
+')
+ 4 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          about
+        WHERE
+          id = assets
+', [...])
+ 5 APPPATH\Controllers\Cms\About.php(74): App\Models\Cms\SuperModel->selectSingleData_m('about', 'assets')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\About->about_form('assets', 'libs', 'choices.js', 'public', 'assets', 'scripts', 'choices.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\About))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-09-17 13:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-17 13:54:14 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\xampp\htdocs\goalinter\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\goalinter\system\Database\MySQLi\Connection.php(312): mysqli->query('\r\n        SELEC...', 0)
+#1 C:\xampp\htdocs\goalinter\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 C:\xampp\htdocs\goalinter\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 C:\xampp\htdocs\goalinter\app\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 C:\xampp\htdocs\goalinter\app\Controllers\Cms\About.php(74): App\Models\Cms\SuperModel->selectSingleData_m('about', 'assets')
+#5 C:\xampp\htdocs\goalinter\system\CodeIgniter.php(933): App\Controllers\Cms\About->about_form('assets', 'libs', 'flatpickr', 'flatpickr.min.j...')
+#6 C:\xampp\htdocs\goalinter\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\About))
+#7 C:\xampp\htdocs\goalinter\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\goalinter\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\goalinter\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\goalinter\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-09-17 13:54:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+[Method: GET, Route: cms/about/about_form/assets/libs/flatpickr/flatpickr.min.js]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          about
+        WHERE
+          id = assets
+', [...])
+ 2 APPPATH\Controllers\Cms\About.php(74): App\Models\Cms\SuperModel->selectSingleData_m('about', 'assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\About->about_form('assets', 'libs', 'flatpickr', 'flatpickr.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\About))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 13:54:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT
+          *
+        FROM
+          about
+        WHERE
+          id = assets
+')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT
+          *
+        FROM
+          about
+        WHERE
+          id = assets
+')
+ 3 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          about
+        WHERE
+          id = assets
+', [...])
+ 4 APPPATH\Controllers\Cms\About.php(74): App\Models\Cms\SuperModel->selectSingleData_m('about', 'assets')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\About->about_form('assets', 'libs', 'flatpickr', 'flatpickr.min.js')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\About))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 13:54:14 --> [Caused by] mysqli_sql_exception: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('
+        SELECT
+          *
+        FROM
+          about
+        WHERE
+          id = assets
+', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT
+          *
+        FROM
+          about
+        WHERE
+          id = assets
+')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT
+          *
+        FROM
+          about
+        WHERE
+          id = assets
+')
+ 4 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          about
+        WHERE
+          id = assets
+', [...])
+ 5 APPPATH\Controllers\Cms\About.php(74): App\Models\Cms\SuperModel->selectSingleData_m('about', 'assets')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\About->about_form('assets', 'libs', 'flatpickr', 'flatpickr.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\About))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-09-17 13:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 13:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 13:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 13:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 13:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 13:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 13:55:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 14:47:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 14:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 14:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 14:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 14:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:27:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:31:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:39:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:42:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-17 15:46:14 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\xampp\htdocs\goalinter\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\goalinter\system\Database\MySQLi\Connection.php(312): mysqli->query('\r\n        SELEC...', 0)
+#1 C:\xampp\htdocs\goalinter\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 C:\xampp\htdocs\goalinter\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 C:\xampp\htdocs\goalinter\app\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 C:\xampp\htdocs\goalinter\app\Controllers\Cms\Contactinfo.php(70): App\Models\Cms\SuperModel->selectSingleData_m('contactinfo', 'assets')
+#5 C:\xampp\htdocs\goalinter\system\CodeIgniter.php(933): App\Controllers\Cms\Contactinfo->contactinfo_form('assets', 'libs', 'choices.js', 'public', 'assets', 'scripts', 'choices.min.js')
+#6 C:\xampp\htdocs\goalinter\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Contactinfo))
+#7 C:\xampp\htdocs\goalinter\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\goalinter\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\goalinter\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\goalinter\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-09-17 15:46:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+[Method: GET, Route: cms/contactinfo/contactinfo_form/assets/libs/choices.js/public/assets/scripts/choices.min.js]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          contactinfo
+        WHERE
+          id = assets
+', [...])
+ 2 APPPATH\Controllers\Cms\Contactinfo.php(70): App\Models\Cms\SuperModel->selectSingleData_m('contactinfo', 'assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Contactinfo->contactinfo_form('assets', 'libs', 'choices.js', 'public', 'assets', 'scripts', 'choices.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Contactinfo))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 15:46:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT
+          *
+        FROM
+          contactinfo
+        WHERE
+          id = assets
+')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT
+          *
+        FROM
+          contactinfo
+        WHERE
+          id = assets
+')
+ 3 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          contactinfo
+        WHERE
+          id = assets
+', [...])
+ 4 APPPATH\Controllers\Cms\Contactinfo.php(70): App\Models\Cms\SuperModel->selectSingleData_m('contactinfo', 'assets')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Contactinfo->contactinfo_form('assets', 'libs', 'choices.js', 'public', 'assets', 'scripts', 'choices.min.js')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Contactinfo))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 15:46:14 --> [Caused by] mysqli_sql_exception: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('
+        SELECT
+          *
+        FROM
+          contactinfo
+        WHERE
+          id = assets
+', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT
+          *
+        FROM
+          contactinfo
+        WHERE
+          id = assets
+')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT
+          *
+        FROM
+          contactinfo
+        WHERE
+          id = assets
+')
+ 4 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          contactinfo
+        WHERE
+          id = assets
+', [...])
+ 5 APPPATH\Controllers\Cms\Contactinfo.php(70): App\Models\Cms\SuperModel->selectSingleData_m('contactinfo', 'assets')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Contactinfo->contactinfo_form('assets', 'libs', 'choices.js', 'public', 'assets', 'scripts', 'choices.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Contactinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-09-17 15:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-17 15:46:14 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\xampp\htdocs\goalinter\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\goalinter\system\Database\MySQLi\Connection.php(312): mysqli->query('\r\n        SELEC...', 0)
+#1 C:\xampp\htdocs\goalinter\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 C:\xampp\htdocs\goalinter\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 C:\xampp\htdocs\goalinter\app\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 C:\xampp\htdocs\goalinter\app\Controllers\Cms\Contactinfo.php(70): App\Models\Cms\SuperModel->selectSingleData_m('contactinfo', 'assets')
+#5 C:\xampp\htdocs\goalinter\system\CodeIgniter.php(933): App\Controllers\Cms\Contactinfo->contactinfo_form('assets', 'libs', 'flatpickr', 'flatpickr.min.j...')
+#6 C:\xampp\htdocs\goalinter\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Contactinfo))
+#7 C:\xampp\htdocs\goalinter\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\goalinter\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\goalinter\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\goalinter\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-09-17 15:46:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+[Method: GET, Route: cms/contactinfo/contactinfo_form/assets/libs/flatpickr/flatpickr.min.js]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          contactinfo
+        WHERE
+          id = assets
+', [...])
+ 2 APPPATH\Controllers\Cms\Contactinfo.php(70): App\Models\Cms\SuperModel->selectSingleData_m('contactinfo', 'assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Contactinfo->contactinfo_form('assets', 'libs', 'flatpickr', 'flatpickr.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Contactinfo))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 15:46:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT
+          *
+        FROM
+          contactinfo
+        WHERE
+          id = assets
+')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT
+          *
+        FROM
+          contactinfo
+        WHERE
+          id = assets
+')
+ 3 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          contactinfo
+        WHERE
+          id = assets
+', [...])
+ 4 APPPATH\Controllers\Cms\Contactinfo.php(70): App\Models\Cms\SuperModel->selectSingleData_m('contactinfo', 'assets')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Contactinfo->contactinfo_form('assets', 'libs', 'flatpickr', 'flatpickr.min.js')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Contactinfo))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 15:46:14 --> [Caused by] mysqli_sql_exception: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('
+        SELECT
+          *
+        FROM
+          contactinfo
+        WHERE
+          id = assets
+', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT
+          *
+        FROM
+          contactinfo
+        WHERE
+          id = assets
+')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT
+          *
+        FROM
+          contactinfo
+        WHERE
+          id = assets
+')
+ 4 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          contactinfo
+        WHERE
+          id = assets
+', [...])
+ 5 APPPATH\Controllers\Cms\Contactinfo.php(70): App\Models\Cms\SuperModel->selectSingleData_m('contactinfo', 'assets')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\Contactinfo->contactinfo_form('assets', 'libs', 'flatpickr', 'flatpickr.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\Contactinfo))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-09-17 15:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-17 15:57:18 --> ErrorException: Undefined variable $valueabout
+[Method: GET, Route: home]
+in APPPATH\Views\public\footer.php on line 59.
+ 1 APPPATH\Views\public\footer.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $valueabout', 'C:\\xampp\\htdocs\\goalinter\\app\\Views\\public\\footer.php', 59)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\goalinter\\app\\Views\\public\\footer.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('public/footer', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('public/footer')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-09-17 15:57:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 15:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-17 15:58:14 --> ErrorException: Undefined variable $projectss
+[Method: GET, Route: home/contactinfo]
+in APPPATH\Views\public\footer.php on line 56.
+ 1 APPPATH\Views\public\footer.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $projectss', 'C:\\xampp\\htdocs\\goalinter\\app\\Views\\public\\footer.php', 56)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\goalinter\\app\\Views\\public\\footer.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('public/footer', [], true)
+ 5 APPPATH\Controllers\Home.php(653): view('public/footer')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->contactinfo()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-09-17 15:59:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 16:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 16:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 16:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 16:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 16:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 16:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 16:34:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 16:34:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 16:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 16:43:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 16:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-09-17 16:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

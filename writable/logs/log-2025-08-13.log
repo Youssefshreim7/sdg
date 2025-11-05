@@ -1,0 +1,1693 @@
+INFO - 2025-08-13 11:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 11:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 11:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 11:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 11:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 11:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 11:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 11:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 11:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 11:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 11:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 12:31:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 12:31:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 12:33:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 12:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 12:33:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 12:33:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:44:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:44:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:45:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-13 15:45:23 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\xampp\htdocs\hirenass\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\hirenass\system\Database\MySQLi\Connection.php(312): mysqli->query('\r\n        SELEC...', 0)
+#1 C:\xampp\htdocs\hirenass\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 C:\xampp\htdocs\hirenass\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 C:\xampp\htdocs\hirenass\app\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 C:\xampp\htdocs\hirenass\app\Controllers\Cms\News.php(79): App\Models\Cms\SuperModel->selectSingleData_m('news', 'assets')
+#5 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(933): App\Controllers\Cms\News->news_form('assets', 'libs', 'flatpickr', 'flatpickr.min.j...')
+#6 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\News))
+#7 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hirenass\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hirenass\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\hirenass\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-08-13 15:45:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+[Method: GET, Route: cms/news/news_form/assets/libs/flatpickr/flatpickr.min.js]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          news
+        WHERE
+          id = assets
+', [...])
+ 2 APPPATH\Controllers\Cms\News.php(79): App\Models\Cms\SuperModel->selectSingleData_m('news', 'assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\News->news_form('assets', 'libs', 'flatpickr', 'flatpickr.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\News))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-13 15:45:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT
+          *
+        FROM
+          news
+        WHERE
+          id = assets
+')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT
+          *
+        FROM
+          news
+        WHERE
+          id = assets
+')
+ 3 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          news
+        WHERE
+          id = assets
+', [...])
+ 4 APPPATH\Controllers\Cms\News.php(79): App\Models\Cms\SuperModel->selectSingleData_m('news', 'assets')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\News->news_form('assets', 'libs', 'flatpickr', 'flatpickr.min.js')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\News))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-13 15:45:24 --> [Caused by] mysqli_sql_exception: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('
+        SELECT
+          *
+        FROM
+          news
+        WHERE
+          id = assets
+', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT
+          *
+        FROM
+          news
+        WHERE
+          id = assets
+')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT
+          *
+        FROM
+          news
+        WHERE
+          id = assets
+')
+ 4 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          news
+        WHERE
+          id = assets
+', [...])
+ 5 APPPATH\Controllers\Cms\News.php(79): App\Models\Cms\SuperModel->selectSingleData_m('news', 'assets')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\News->news_form('assets', 'libs', 'flatpickr', 'flatpickr.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\News))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-08-13 15:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-13 15:45:24 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\xampp\htdocs\hirenass\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\hirenass\system\Database\MySQLi\Connection.php(312): mysqli->query('\r\n        SELEC...', 0)
+#1 C:\xampp\htdocs\hirenass\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 C:\xampp\htdocs\hirenass\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 C:\xampp\htdocs\hirenass\app\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 C:\xampp\htdocs\hirenass\app\Controllers\Cms\News.php(79): App\Models\Cms\SuperModel->selectSingleData_m('news', 'assets')
+#5 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(933): App\Controllers\Cms\News->news_form('assets', 'libs', 'choices.js', 'public', 'assets', 'scripts', 'choices.min.js')
+#6 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\News))
+#7 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hirenass\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hirenass\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\hirenass\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-08-13 15:45:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+[Method: GET, Route: cms/news/news_form/assets/libs/choices.js/public/assets/scripts/choices.min.js]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          news
+        WHERE
+          id = assets
+', [...])
+ 2 APPPATH\Controllers\Cms\News.php(79): App\Models\Cms\SuperModel->selectSingleData_m('news', 'assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\News->news_form('assets', 'libs', 'choices.js', 'public', 'assets', 'scripts', 'choices.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\News))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-13 15:45:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT
+          *
+        FROM
+          news
+        WHERE
+          id = assets
+')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT
+          *
+        FROM
+          news
+        WHERE
+          id = assets
+')
+ 3 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          news
+        WHERE
+          id = assets
+', [...])
+ 4 APPPATH\Controllers\Cms\News.php(79): App\Models\Cms\SuperModel->selectSingleData_m('news', 'assets')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\News->news_form('assets', 'libs', 'choices.js', 'public', 'assets', 'scripts', 'choices.min.js')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\News))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-13 15:45:24 --> [Caused by] mysqli_sql_exception: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('
+        SELECT
+          *
+        FROM
+          news
+        WHERE
+          id = assets
+', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT
+          *
+        FROM
+          news
+        WHERE
+          id = assets
+')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT
+          *
+        FROM
+          news
+        WHERE
+          id = assets
+')
+ 4 APPPATH\Models\Cms\SuperModel.php(68): CodeIgniter\Database\BaseConnection->query('
+        SELECT
+          *
+        FROM
+          news
+        WHERE
+          id = assets
+', [...])
+ 5 APPPATH\Controllers\Cms\News.php(79): App\Models\Cms\SuperModel->selectSingleData_m('news', 'assets')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cms\News->news_form('assets', 'libs', 'choices.js', 'public', 'assets', 'scripts', 'choices.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cms\News))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-08-13 15:48:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-13 15:51:55 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\xampp\htdocs\hirenass\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\hirenass\system\Database\MySQLi\Connection.php(312): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\hirenass\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\hirenass\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\hirenass\app\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('\r\n            S...')
+#4 C:\xampp\htdocs\hirenass\app\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+#5 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg....')
+#6 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hirenass\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hirenass\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\hirenass\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-08-13 15:51:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+[Method: GET, Route: home/newsdetails/assets/img/bg/breadcrumb__bg.jpg]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 2 APPPATH\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg.jpg')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-13 15:51:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 3 APPPATH\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 4 APPPATH\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg.jpg')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-13 15:51:55 --> [Caused by] mysqli_sql_exception: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 4 APPPATH\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 5 APPPATH\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-08-13 15:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-13 15:53:34 --> ErrorException: Undefined array key "phone"
+[Method: GET, Route: home/newsdetails/4]
+in APPPATH\Views\public\newsdetails.php on line 75.
+ 1 APPPATH\Views\public\newsdetails.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "phone"', 'C:\\xampp\\htdocs\\hirenass\\app\\Views\\public\\newsdetails.php', 75)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\hirenass\\app\\Views\\public\\newsdetails.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('public/newsdetails', [], true)
+ 5 APPPATH\Controllers\Home.php(493): view('public/newsdetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-08-13 15:53:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-13 15:53:51 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\xampp\htdocs\hirenass\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\hirenass\system\Database\MySQLi\Connection.php(312): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\hirenass\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\hirenass\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\hirenass\app\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('\r\n            S...')
+#4 C:\xampp\htdocs\hirenass\app\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+#5 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg....')
+#6 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hirenass\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hirenass\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\hirenass\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-08-13 15:53:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+[Method: GET, Route: home/newsdetails/assets/img/bg/breadcrumb__bg.jpg]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 2 APPPATH\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg.jpg')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-13 15:53:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 3 APPPATH\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 4 APPPATH\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg.jpg')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-13 15:53:51 --> [Caused by] mysqli_sql_exception: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 4 APPPATH\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 5 APPPATH\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-08-13 15:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-13 15:58:22 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\xampp\htdocs\hirenass\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\hirenass\system\Database\MySQLi\Connection.php(312): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\hirenass\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\hirenass\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\hirenass\app\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('\r\n            S...')
+#4 C:\xampp\htdocs\hirenass\app\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+#5 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg....')
+#6 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hirenass\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hirenass\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\hirenass\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-08-13 15:58:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+[Method: GET, Route: home/newsdetails/assets/img/bg/breadcrumb__bg.jpg]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 2 APPPATH\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg.jpg')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-13 15:58:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 3 APPPATH\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 4 APPPATH\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg.jpg')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-13 15:58:22 --> [Caused by] mysqli_sql_exception: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 4 APPPATH\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 5 APPPATH\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-08-13 15:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:58:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-13 15:58:43 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\xampp\htdocs\hirenass\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\hirenass\system\Database\MySQLi\Connection.php(312): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\hirenass\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\hirenass\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\hirenass\app\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('\r\n            S...')
+#4 C:\xampp\htdocs\hirenass\app\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+#5 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg....')
+#6 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hirenass\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hirenass\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\hirenass\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-08-13 15:58:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+[Method: GET, Route: home/newsdetails/assets/img/bg/breadcrumb__bg.jpg]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 2 APPPATH\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg.jpg')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-13 15:58:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 3 APPPATH\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 4 APPPATH\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg.jpg')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-13 15:58:43 --> [Caused by] mysqli_sql_exception: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 4 APPPATH\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 5 APPPATH\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-08-13 15:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-13 15:59:18 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\xampp\htdocs\hirenass\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\hirenass\system\Database\MySQLi\Connection.php(312): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\hirenass\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\hirenass\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\hirenass\app\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('\r\n            S...')
+#4 C:\xampp\htdocs\hirenass\app\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+#5 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg....')
+#6 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hirenass\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hirenass\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\hirenass\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-08-13 15:59:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+[Method: GET, Route: home/newsdetails/assets/img/bg/breadcrumb__bg.jpg]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 2 APPPATH\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg.jpg')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-13 15:59:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 3 APPPATH\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 4 APPPATH\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg.jpg')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-13 15:59:18 --> [Caused by] mysqli_sql_exception: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 4 APPPATH\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 5 APPPATH\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-08-13 15:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 15:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-13 15:59:35 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\xampp\htdocs\hirenass\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\hirenass\system\Database\MySQLi\Connection.php(312): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\hirenass\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\hirenass\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\hirenass\app\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('\r\n            S...')
+#4 C:\xampp\htdocs\hirenass\app\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+#5 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg....')
+#6 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hirenass\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hirenass\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\hirenass\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-08-13 15:59:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+[Method: GET, Route: home/newsdetails/assets/img/bg/breadcrumb__bg.jpg]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 2 APPPATH\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg.jpg')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-13 15:59:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 3 APPPATH\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 4 APPPATH\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg.jpg')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-13 15:59:35 --> [Caused by] mysqli_sql_exception: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 4 APPPATH\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 5 APPPATH\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-08-13 15:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 16:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 16:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 16:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 16:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 16:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 16:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 16:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 16:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 16:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 16:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 16:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 16:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 16:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 16:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 16:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 16:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 16:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-13 16:02:18 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\xampp\htdocs\hirenass\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\hirenass\system\Database\MySQLi\Connection.php(312): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\hirenass\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\hirenass\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\hirenass\app\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('\r\n            S...')
+#4 C:\xampp\htdocs\hirenass\app\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+#5 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg....')
+#6 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hirenass\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hirenass\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\hirenass\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-08-13 16:02:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+[Method: GET, Route: home/newsdetails/assets/img/bg/breadcrumb__bg.jpg]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 2 APPPATH\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg.jpg')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-13 16:02:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 3 APPPATH\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 4 APPPATH\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg.jpg')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-13 16:02:18 --> [Caused by] mysqli_sql_exception: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 4 APPPATH\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 5 APPPATH\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-08-13 16:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 16:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 16:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 16:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-13 16:05:10 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\xampp\htdocs\hirenass\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\hirenass\system\Database\MySQLi\Connection.php(312): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\hirenass\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\hirenass\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\hirenass\app\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('\r\n            S...')
+#4 C:\xampp\htdocs\hirenass\app\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+#5 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg....')
+#6 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hirenass\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hirenass\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\hirenass\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-08-13 16:05:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+[Method: GET, Route: home/newsdetails/assets/img/bg/breadcrumb__bg.jpg]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 2 APPPATH\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg.jpg')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-13 16:05:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 3 APPPATH\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 4 APPPATH\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg.jpg')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-13 16:05:10 --> [Caused by] mysqli_sql_exception: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 4 APPPATH\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 5 APPPATH\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-08-13 16:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 16:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-13 16:07:36 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\xampp\htdocs\hirenass\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\hirenass\system\Database\MySQLi\Connection.php(312): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\hirenass\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\hirenass\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\hirenass\app\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('\r\n            S...')
+#4 C:\xampp\htdocs\hirenass\app\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+#5 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg....')
+#6 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hirenass\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hirenass\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\hirenass\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-08-13 16:07:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+[Method: GET, Route: home/newsdetails/assets/img/bg/breadcrumb__bg.jpg]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 2 APPPATH\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg.jpg')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-13 16:07:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 3 APPPATH\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 4 APPPATH\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg.jpg')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-13 16:07:36 --> [Caused by] mysqli_sql_exception: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 4 APPPATH\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 5 APPPATH\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-08-13 16:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 16:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-13 16:10:58 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\xampp\htdocs\hirenass\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\hirenass\system\Database\MySQLi\Connection.php(312): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\hirenass\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\hirenass\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\hirenass\app\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('\r\n            S...')
+#4 C:\xampp\htdocs\hirenass\app\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+#5 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg....')
+#6 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hirenass\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hirenass\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\hirenass\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-08-13 16:10:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+[Method: GET, Route: home/newsdetails/assets/img/bg/breadcrumb__bg.jpg]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 2 APPPATH\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg.jpg')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-13 16:10:58 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 3 APPPATH\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 4 APPPATH\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg.jpg')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-13 16:10:58 --> [Caused by] mysqli_sql_exception: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 4 APPPATH\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 5 APPPATH\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-08-13 16:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 16:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-13 16:12:59 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\xampp\htdocs\hirenass\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\hirenass\system\Database\MySQLi\Connection.php(312): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\hirenass\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\hirenass\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\hirenass\app\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('\r\n            S...')
+#4 C:\xampp\htdocs\hirenass\app\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+#5 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg....')
+#6 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hirenass\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hirenass\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\hirenass\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-08-13 16:12:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+[Method: GET, Route: home/newsdetails/assets/img/bg/breadcrumb__bg.jpg]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 2 APPPATH\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg.jpg')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-13 16:12:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 3 APPPATH\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 4 APPPATH\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg.jpg')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-13 16:12:59 --> [Caused by] mysqli_sql_exception: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 4 APPPATH\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 5 APPPATH\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-08-13 16:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 16:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-13 16:21:10 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\xampp\htdocs\hirenass\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\hirenass\system\Database\MySQLi\Connection.php(312): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\hirenass\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\hirenass\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\hirenass\app\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('\r\n            S...')
+#4 C:\xampp\htdocs\hirenass\app\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+#5 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg....')
+#6 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\hirenass\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hirenass\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\hirenass\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\hirenass\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-08-13 16:21:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+[Method: GET, Route: home/newsdetails/assets/img/bg/breadcrumb__bg.jpg]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 2 APPPATH\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg.jpg')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-13 16:21:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 3 APPPATH\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 4 APPPATH\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg.jpg')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-13 16:21:10 --> [Caused by] mysqli_sql_exception: Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 4 APPPATH\Models\HomeModel.php(766): CodeIgniter\Database\BaseConnection->query('
+            SELECT
+            news.*
+            FROM
+            news
+           WHERE
+              news.is_active = 1 and   news.id = assets
+
+        ')
+ 5 APPPATH\Controllers\Home.php(485): App\Models\HomeModel->select_newsinfo_model_m('assets')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->newsdetails('assets', 'img', 'bg', 'breadcrumb__bg.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-08-13 16:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 16:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 16:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 16:24:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 16:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 16:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 16:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
