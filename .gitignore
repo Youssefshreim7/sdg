@@ -1,0 +1,17 @@
+# CodeIgniter 4 standard gitignore
+
+/vendor/
+/node_modules/
+.env
+/.vscode/
+/.idea/
+/.DS_Store
+/Thumbs.db
+
+# Ignore all writable content except these placeholders
+/writable/*
+!/writable/index.html
+!/writable/.htaccess
+
+# PHPUnit
+.phpunit.result.cache
