@@ -12,7 +12,7 @@
                                     <?php foreach($partner as $value){?>
                                     <div class="swiper-slide">
                                         <div class="brand-content text-center">
-                                            <span class="brand-img"><img src="<?= base_url() . 'uploads/' . $value['image'] ?>" class="width-104 width-sm-144 img-fluid" alt="brand-logo2"></span>
+                                            <span class="brand-img"><img   src="<?= base_url() . 'uploads/' . $value['image'] ?>" class="width-104 width-sm-144 img-fluid" alt="brand-logo2"></span>
                                         </div>
                                     </div>
                                      

@@ -24,6 +24,7 @@
         <!-- blog css -->
         <link rel="stylesheet" type="text/css" href="<?= base_url() . '/assets/public/' ?>/css/blog2.css">
         <!-- style css -->
+        
         <link rel="stylesheet" type="text/css" href="<?= base_url() . '/assets/public/' ?>/css/style2.css">
     </head>
     <body>
@@ -68,85 +69,7 @@
                                                 <input type="search" name="search-input" class="search-input w-100 h-auto p-0 border-0 rounded-0" value="" placeholder="Search here" required>
                                                 <button type="submit" onclick="window.location.href='search-product.html'" class="d-block primary-color icon-16 rounded-0" aria-label="Go to search" disabled><i class="ri-search-line d-block lh-1"></i></button>
                                             </div>
-                                            <div class="d-none search-results position-absolute top-auto start-0 end-0 body-bg z-2 border-full border-radius box-shadow">
-                                                <div class="search-for ptb-10 plr-15 beb">Search for <span class="search-text">a</span></div>
-                                                <ul class="search-ul">
-                                                    <li class="search-li ptb-5 plr-15 bst">
-                                                        <a href="product.html" class="body-primary-color d-flex flex-wrap align-items-center">
-                                                            <span class="width-48"><img src="<?= base_url() . '/assets/public/' ?>//image/search/search-product1.jpg" class="w-100 img-fluid border-radius" alt="search-product1"></span>
-                                                            <span class="width-calc-48 psl-15 text-truncate">Luna velvet sofa</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="search-li ptb-5 plr-15 bst">
-                                                        <a href="product.html" class="body-primary-color d-flex flex-wrap align-items-center">
-                                                            <span class="width-48"><img src="<?= base_url() . '/assets/public/' ?>//image/search/search-product2.jpg" class="w-100 img-fluid border-radius" alt="search-product2"></span>
-                                                            <span class="width-calc-48 psl-15 text-truncate">Aurora storage bed</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="search-li ptb-5 plr-15 bst">
-                                                        <a href="product.html" class="body-primary-color d-flex flex-wrap align-items-center">
-                                                            <span class="width-48"><img src="<?= base_url() . '/assets/public/' ?>//image/search/search-product3.jpg" class="w-100 img-fluid border-radius" alt="search-product3"></span>
-                                                            <span class="width-calc-48 psl-15 text-truncate">Cavelo oak dining set</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="search-li ptb-5 plr-15 bst">
-                                                        <a href="product.html" class="body-primary-color d-flex flex-wrap align-items-center">
-                                                            <span class="width-48"><img src="<?= base_url() . '/assets/public/' ?>//image/search/search-product4.jpg" class="w-100 img-fluid border-radius" alt="search-product4"></span>
-                                                            <span class="width-calc-48 psl-15 text-truncate">Dexon work desk</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="search-li ptb-5 plr-15 bst">
-                                                        <a href="product.html" class="body-primary-color d-flex flex-wrap align-items-center">
-                                                            <span class="width-48"><img src="<?= base_url() . '/assets/public/' ?>//image/search/search-product5.jpg" class="w-100 img-fluid border-radius" alt="search-product5"></span>
-                                                            <span class="width-calc-48 psl-15 text-truncate">Riva patio chair set</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="search-li ptb-5 plr-15 bst">
-                                                        <a href="product.html" class="body-primary-color d-flex flex-wrap align-items-center">
-                                                            <span class="width-48"><img src="<?= base_url() . '/assets/public/' ?>//image/search/search-product6.jpg" class="w-100 img-fluid border-radius" alt="search-product6"></span>
-                                                            <span class="width-calc-48 psl-15 text-truncate">Modo side cabinet</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="search-li ptb-5 plr-15 bst">
-                                                        <a href="product.html" class="body-primary-color d-flex flex-wrap align-items-center">
-                                                            <span class="width-48"><img src="<?= base_url() . '/assets/public/' ?>//image/search/search-product7.jpg" class="w-100 img-fluid border-radius" alt="search-product7"></span>
-                                                            <span class="width-calc-48 psl-15 text-truncate">Bunny bunk bed</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="search-li ptb-5 plr-15 bst">
-                                                        <a href="product.html" class="body-primary-color d-flex flex-wrap align-items-center">
-                                                            <span class="width-48"><img src="<?= base_url() . '/assets/public/' ?>//image/search/search-product8.jpg" class="w-100 img-fluid border-radius" alt="search-product8"></span>
-                                                            <span class="width-calc-48 psl-15 text-truncate">Milo nesting tables</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="search-li ptb-5 plr-15 bst">
-                                                        <a href="product.html" class="body-primary-color d-flex flex-wrap align-items-center">
-                                                            <span class="width-48"><img src="<?= base_url() . '/assets/public/' ?>//image/search/search-product9.jpg" class="w-100 img-fluid border-radius" alt="search-product9"></span>
-                                                            <span class="width-calc-48 psl-15 text-truncate">Halo pendant light</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="search-li ptb-5 plr-15 bst">
-                                                        <a href="product.html" class="body-primary-color d-flex flex-wrap align-items-center">
-                                                            <span class="width-48"><img src="<?= base_url() . '/assets/public/' ?>//image/search/search-product10.jpg" class="w-100 img-fluid border-radius" alt="search-product10"></span>
-                                                            <span class="width-calc-48 psl-15 text-truncate">Vera lounge chair</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="search-li ptb-5 plr-15 bst">
-                                                        <a href="product.html" class="body-primary-color d-flex flex-wrap align-items-center">
-                                                            <span class="width-48"><img src="<?= base_url() . '/assets/public/' ?>//image/search/search-product11.jpg" class="w-100 img-fluid border-radius" alt="search-product11"></span>
-                                                            <span class="width-calc-48 psl-15 text-truncate">Arlo coffee table</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="search-li ptb-5 plr-15 bst">
-                                                        <a href="product.html" class="body-primary-color d-flex flex-wrap align-items-center">
-                                                            <span class="width-48"><img src="<?= base_url() . '/assets/public/' ?>//image/search/search-product12.jpg" class="w-100 img-fluid border-radius" alt="search-product12"></span>
-                                                            <span class="width-calc-48 psl-15 text-truncate">Noko wall shelf</span>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                                <div class="search-more ptb-10 plr-15 bst"><a href="search-product.html" class="body-secondary-color text-decoration-underline">See all results (12)</a></div>
-                                                <div class="search-fail ptb-10 plr-15">Search not found</div>
-                                            </div>
+                                            
                                         </div>
                                     </form>
                                 </div>
@@ -261,10 +184,41 @@
                                             </a>
                                         </li>
                                         <li class="menu-li">
-                                            <a href="<?= base_url('home/products') ?>" class="menu-link d-flex align-items-center ptb-14 plr-15">
+                                            <a href="<?= base_url('home/allproducts') ?>" class="menu-link d-flex align-items-center ptb-14 plr-15">
                                                 <span class="menu-title heading-weight">Products</span>
                                             </a>
                                         </li>
+                                        <li class="menu-li">
+                                                <a href="javascript:void(0)" class="menu-link d-flex align-items-center ptb-10 plr-15">
+                                                    <span class="menu-title heading-weight">Products</span>
+                                                    <span class="icon-16 fw-normal"><i class="ri-arrow-down-s-line d-block lh-1"></i></span>
+                                                </a>
+                                                <div class="menu-dropdown menu-sub collapse position-absolute top-auto body-bg z-2 DropDownSlide box-shadow">
+                                                    <ul class="menudrop-ul ptb-26">
+                                                        <?php foreach($allcats as $key => $value){?>
+                                                        <li class="menudrop-li position-relative">
+                                                            <div class="menu-sublink ptb-4 plr-30">
+                                                                <a href="about-us.html" class="d-flex flex-wrap align-items-center">
+                                                                    <span class="menusub-title width-calc-16"><?php echo $value['name'];?></span>
+                                                                    <span class="width-16 icon-16 fw-normal"><i class="ri-arrow-right-s-line d-block lh-1"></i></span>
+                                                                </a>
+                                                            </div>
+                                                            <div class="menusub-dropdown collapse position-absolute w-100 body-bg DropDownSlide box-shadow">
+                                                                <ul class="menusub-ul ptb-26">
+                                                                    <?php foreach($allsubcats as $subcat){
+                                                                        if($subcat['cat_id'] == $value['id']){ ?>
+                                                                    <li class="menusub-li">
+                                                                        <span class="d-block ptb-4 plr-30"><a href="<?= base_url('home/category/'.$subcat['id']) ?>" class="d-inline-block body-primary-color"><?php echo $subcat['name']; ?></a></span>
+                                                                    </li>
+                                                                    <?php } 
+                                                                    } ?>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                     <?php } ?>
+                                                    </ul>
+                                                </div>
+                                            </li>
                                         <li class="menu-li">
                                             <a href="<?= base_url('home/projects') ?>" class="menu-link d-flex align-items-center ptb-14 plr-15">
                                                 <span class="menu-title heading-weight">Projects</span>

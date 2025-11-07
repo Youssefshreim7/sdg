@@ -13,47 +13,63 @@ class Home extends BaseController
         $this->SuperModel = new SuperModel();
     }
 
-    public function index()
-    {
-        $data = array();
-        $data['sliders']      = $this->HomeModel->select_all_Sliders_model_m();
-        $data['allcats']      = $this->HomeModel->select_all_categorys_model_m();
-        $data['allsubcats']   = $this->HomeModel->select_all_sub_categorys_model_m();
-        $data['lastproducts'] = $this->HomeModel->select_last_products_model_m();
-        $data['featproducts'] = $this->HomeModel->select_feat_products_model_m();
-        $data['team']         = $this->HomeModel->select_last_team_model_m();
-        $data['faqq']         = $this->HomeModel->select_last_faq_model_m();
-        $data['price'] = $this->HomeModel->select_last_price_model_m();
-        $data['membership']   = $this->HomeModel->select_last_membership_model_m();
-        $data['clients']      = $this->HomeModel->select_last_clients_model_m();
-        $data['mainservices'] = $this->HomeModel->select_last_mainservices_model_m();
-        $data['partner']      = $this->HomeModel->select_last_partner_model_m();
-        $data['news']         = $this->HomeModel->select_last_news_model_m();
-        $data['newsl']        = $this->HomeModel->select_last_newss_model_m();
+public function index()
+{
+    $data = [];
 
-        // FIX: items lists should use items methods, not news
-        $data['items']  = $this->HomeModel->select_last_items_model_m();
-        $data['itemsl'] = $this->HomeModel->select_last_itemss_model_m();
+    // Fetch product lists first
+    $data['featproducts'] = $this->HomeModel->select_feat_products_model_m();
+    $data['lastproducts'] = $this->HomeModel->select_last_products_model_m();
 
-        $data['projects']   = $this->HomeModel->select_last_projects_model_m();
-        $data['projectss']  = $this->HomeModel->select_last_projectss_model_m();
-        $data['testimonial'] = $this->HomeModel->select_last_testimonial_model_m();
-
-        $data['label']       = $this->HomeModel->select_label_page_model_m();
-        $data['faq']         = $this->HomeModel->select_faq_page_model_m();
-        $data['csr']         = $this->HomeModel->select_csr_page_model_m();
-        $data['about']       = $this->HomeModel->select_about_page_model_m();
-        $data['contactinfo'] = $this->HomeModel->select_contact_info_model_m();
-
-
-        $data['socialmedia'] = $this->HomeModel->select_socialmedia_model_m();
-        $data['services']    = $this->HomeModel->select_last_services_model_m();
-        $data['servicess']   = $this->HomeModel->select_last_servicess_model_m();
-
-        return view('public/header', $data)
-            . view('public/index',  $data)
-            . view('public/footer');
+    // Build unique product IDs from both lists (if you want gallery for both)
+    $ids = [];
+    if (!empty($data['featproducts'])) {
+        $ids = array_merge($ids, array_column($data['featproducts'], 'id'));
     }
+    if (!empty($data['lastproducts'])) {
+        $ids = array_merge($ids, array_column($data['lastproducts'], 'id'));
+    }
+    $ids = array_values(array_unique(array_filter($ids)));
+
+    // Map: product_id => first gallery image filename (if any)
+    $data['productFirstGallery'] = !empty($ids)
+        ? $this->HomeModel->select_first_gallery_images_by_product_ids($ids)
+        : [];
+
+    // The rest of your data
+    $data['sliders']      = $this->HomeModel->select_all_Sliders_model_m();
+    $data['allcats']      = $this->HomeModel->select_all_categorys_model_m();
+    $data['allsubcats']   = $this->HomeModel->select_all_sub_categorys_model_m();
+
+    $data['team']         = $this->HomeModel->select_last_team_model_m();
+    $data['faqq']         = $this->HomeModel->select_last_faq_model_m();
+    $data['price']        = $this->HomeModel->select_last_price_model_m();
+    $data['membership']   = $this->HomeModel->select_last_membership_model_m();
+    $data['clients']      = $this->HomeModel->select_last_clients_model_m();
+    $data['mainservices'] = $this->HomeModel->select_last_mainservices_model_m();
+    $data['partner']      = $this->HomeModel->select_last_partner_model_m();
+    $data['news']         = $this->HomeModel->select_last_news_model_m();
+    $data['newsl']        = $this->HomeModel->select_last_newss_model_m();
+    $data['items']        = $this->HomeModel->select_last_items_model_m();
+    $data['itemsl']       = $this->HomeModel->select_last_itemss_model_m();
+    $data['projects']     = $this->HomeModel->select_last_projects_model_m();
+    $data['projectss']    = $this->HomeModel->select_last_projectss_model_m();
+    $data['testimonial']  = $this->HomeModel->select_last_testimonial_model_m();
+
+    $data['label']        = $this->HomeModel->select_label_page_model_m();
+    $data['faq']          = $this->HomeModel->select_faq_page_model_m();
+    $data['csr']          = $this->HomeModel->select_csr_page_model_m();
+    $data['about']        = $this->HomeModel->select_about_page_model_m();
+    $data['contactinfo']  = $this->HomeModel->select_contact_info_model_m();
+    $data['socialmedia']  = $this->HomeModel->select_socialmedia_model_m();
+    $data['services']     = $this->HomeModel->select_last_services_model_m();
+    $data['servicess']    = $this->HomeModel->select_last_servicess_model_m();
+
+    return view('public/header', $data)
+         . view('public/index',  $data)
+         . view('public/footer');
+}
+
 
     public function about()
     {
@@ -459,91 +475,122 @@ class Home extends BaseController
             . view('public/footer');
     }
 
-    public function allproducts()
-    {
-        $data   = array();
-        $pager  = service('pager');
-        $page   = isset($_GET['page']) ? $_GET['page'] : 1; // no '??'
-        $perPage = 9;
-        $total  = $this->HomeModel->count_all_products();
+// Controller
+public function allproducts()
+{
+    $data    = [];
+    $pager   = service('pager');
+    $page    = isset($_GET['page']) ? (int)$_GET['page'] : 1;
+    $perPage = 9;
+    $total   = $this->HomeModel->count_all_products();
 
-        $data['allprod'] = $this->HomeModel->select_products_by_all_model_m($perPage, ($page - 1) * $perPage);
-        $data['pager']   = $pager->makeLinks($page, $perPage, $total, 'default_costum');
+    // Fetch current page products
+    $products = $this->HomeModel->select_products_by_all_model_m($perPage, ($page - 1) * $perPage);
+    $data['allprod'] = $products;
 
-        $data['services']    = $this->HomeModel->select_last_services_model_m();
-        $data['page']        = "allproducts";
-        $data['about']       = $this->HomeModel->select_about_page_model_m();
-        $data['contactinfo'] = $this->HomeModel->select_contact_info_model_m();
-        $data['partner']      = $this->HomeModel->select_last_partner_model_m();
-        $data['socialmedia'] = $this->HomeModel->select_socialmedia_model_m();
-        $data['projectss']  = $this->HomeModel->select_last_projectss_model_m();
-        $data['allsubcats']  = $this->HomeModel->select_all_sub_categorys_model_m();
-        $data['newsl']        = $this->HomeModel->select_last_newss_model_m();
-        $data['servicess']   = $this->HomeModel->select_last_servicess_model_m();
-        $data['allcats']     = $this->HomeModel->select_all_categorys_model_m();
+    // Build map: product_id => first gallery image (if any)
+    $ids = array_column($products, 'id');
+    $data['productFirstGallery'] = $this->HomeModel->select_first_gallery_images_by_product_ids($ids);
 
-        return view('public/header',  $data)
-            . view('public/allproducts', $data)
-            . view('public/footer');
-    }
+    $data['pager']       = $pager->makeLinks($page, $perPage, $total, 'default_costum');
+    $data['services']    = $this->HomeModel->select_last_services_model_m();
+    $data['page']        = "allproducts";
+    $data['about']       = $this->HomeModel->select_about_page_model_m();
+    $data['contactinfo'] = $this->HomeModel->select_contact_info_model_m();
+    $data['partner']     = $this->HomeModel->select_last_partner_model_m();
+    $data['socialmedia'] = $this->HomeModel->select_socialmedia_model_m();
+    $data['projectss']   = $this->HomeModel->select_last_projectss_model_m();
+    $data['allsubcats']  = $this->HomeModel->select_all_sub_categorys_model_m();
+    $data['newsl']       = $this->HomeModel->select_last_newss_model_m();
+    $data['servicess']   = $this->HomeModel->select_last_servicess_model_m();
+    $data['allcats']     = $this->HomeModel->select_all_categorys_model_m();
 
-    public function products_by_category($cat_id)
-    {
-        $data   = array();
-        $pager  = service('pager');
-        $page   = isset($_GET['page']) ? $_GET['page'] : 1;
-        $perPage = 9;
-        $total  = $this->HomeModel->count_products_by_category($cat_id);
+    return view('public/header',  $data)
+         . view('public/allproducts', $data)
+         . view('public/footer');
+}
 
-        $data['prod_by_cat'] = $this->HomeModel->select_products_by_category_model_m($cat_id, $perPage, ($page - 1) * $perPage);
-        $data['pager']       = $pager->makeLinks($page, $perPage, $total, 'default_costum');
+public function products_by_category($cat_id)
+{
+    $data    = [];
+    $pager   = service('pager');
+    $page    = isset($_GET['page']) ? (int)$_GET['page'] : 1;
+    $perPage = 9;
 
-        $data['page']        = "products_by_category";
-        $data['about']       = $this->HomeModel->select_about_page_model_m();
-        $data['contactinfo'] = $this->HomeModel->select_contact_info_model_m();
-        $data['partner']      = $this->HomeModel->select_last_partner_model_m();
-        $data['subcatrelated']  = $this->HomeModel->select_sub_categories_by_category_m($cat_id);
-        $data['newsl']        = $this->HomeModel->select_last_newss_model_m();
-        $data['servicess']   = $this->HomeModel->select_last_servicess_model_m();
-        $data['socialmedia'] = $this->HomeModel->select_socialmedia_model_m();
-        $data['services']    = $this->HomeModel->select_last_services_model_m();
-        $data['allcats']     = $this->HomeModel->select_all_categorys_model_m();
-        $data['allsubcats']  = $this->HomeModel->select_all_sub_categorys_model_m();
-        $data['cat_info']    = $this->HomeModel->select_category_details_model_m($cat_id);
+    $total = $this->HomeModel->count_products_by_category($cat_id);
 
-        return view('public/header', $data)
-            . view('public/products_by_cat', $data)
-            . view('public/footer');
-    }
+    // Page products
+    $data['prod_by_cat'] = $this->HomeModel->select_products_by_category_model_m(
+        $cat_id, $perPage, ($page - 1) * $perPage
+    );
+    $data['pager'] = $pager->makeLinks($page, $perPage, $total, 'default_costum');
 
-    public function products_by_subcat($cat_id, $subcat_id)
-    {
-        $data    = array();
-        $data['page'] = "products_by_subcat";
+    // 🔹 Build gallery map for these products
+    $ids = !empty($data['prod_by_cat']) ? array_column($data['prod_by_cat'], 'id') : [];
+    $ids = array_values(array_unique(array_filter($ids)));
+    $data['productFirstGallery'] = !empty($ids)
+        ? $this->HomeModel->select_first_gallery_images_by_product_ids($ids)
+        : [];
 
-        $pager   = service('pager');
-        $page    = isset($_GET['page']) ? $_GET['page'] : 1;
-        $perPage = 9;
-        $total   = $this->HomeModel->count_products_by_subcat($cat_id, $subcat_id);
+    // Other data
+    $data['page']        = "products_by_category";
+    $data['about']       = $this->HomeModel->select_about_page_model_m();
+    $data['contactinfo'] = $this->HomeModel->select_contact_info_model_m();
+    $data['partner']     = $this->HomeModel->select_last_partner_model_m();
+    $data['subcatrelated'] = $this->HomeModel->select_sub_categories_by_category_m($cat_id);
+    $data['newsl']       = $this->HomeModel->select_last_newss_model_m();
+    $data['servicess']   = $this->HomeModel->select_last_servicess_model_m();
+    $data['socialmedia'] = $this->HomeModel->select_socialmedia_model_m();
+    $data['services']    = $this->HomeModel->select_last_services_model_m();
+    $data['allcats']     = $this->HomeModel->select_all_categorys_model_m();
+    $data['allsubcats']  = $this->HomeModel->select_all_sub_categorys_model_m();
+    $data['cat_info']    = $this->HomeModel->select_category_details_model_m($cat_id);
 
-        $data['prod_by_subcat'] = $this->HomeModel->select_products_by_subcat_model_m($cat_id, $subcat_id, $perPage, ($page - 1) * $perPage);
-        $data['pager']          = $pager->makeLinks($page, $perPage, $total, 'default_costum');
+    return view('public/header', $data)
+         . view('public/products_by_cat', $data)
+         . view('public/footer');
+}
 
-        $data['services']    = $this->HomeModel->select_last_services_model_m();
-        $data['about']       = $this->HomeModel->select_about_page_model_m();
 
-        $data['contactinfo'] = $this->HomeModel->select_contact_info_model_m();
-        $data['partner']      = $this->HomeModel->select_last_partner_model_m();
-        $data['socialmedia'] = $this->HomeModel->select_socialmedia_model_m();
-        $data['allcats']     = $this->HomeModel->select_all_categorys_model_m();
-        $data['allsubcats']  = $this->HomeModel->select_all_sub_categorys_model_m();
-        $data['subcatrelated']  = $this->HomeModel->select_sub_categories_by_category_m($cat_id);
-        $data['subcat_info'] = $this->HomeModel->select_sub_categories_details_model_m($subcat_id);
+public function products_by_subcat($cat_id, $subcat_id)
+{
+    $data    = [];
+    $data['page'] = "products_by_subcat";
 
-        return view('public/header', $data)
-            . view('public/products_by_subcat', $data)
-            . view('public/footer');
-    }
+    $pager   = service('pager');
+    $page    = isset($_GET['page']) ? (int)$_GET['page'] : 1;
+    $perPage = 9;
+    $total   = $this->HomeModel->count_products_by_subcat($cat_id, $subcat_id);
+
+    // Fetch products for this subcategory + pagination
+    $data['prod_by_subcat'] = $this->HomeModel->select_products_by_subcat_model_m(
+        $cat_id, $subcat_id, $perPage, ($page - 1) * $perPage
+    );
+    $data['pager'] = $pager->makeLinks($page, $perPage, $total, 'default_costum');
+
+    // Build gallery map for these products (id => first gallery image)
+    $ids = !empty($data['prod_by_subcat']) ? array_column($data['prod_by_subcat'], 'id') : [];
+    $ids = array_values(array_unique(array_filter($ids)));
+    $data['productFirstGallery'] = !empty($ids)
+        ? $this->HomeModel->select_first_gallery_images_by_product_ids($ids)
+        : [];
+
+    // Other page data
+    $data['services']    = $this->HomeModel->select_last_services_model_m();
+    $data['about']       = $this->HomeModel->select_about_page_model_m();
+    $data['contactinfo'] = $this->HomeModel->select_contact_info_model_m();
+    $data['partner']     = $this->HomeModel->select_last_partner_model_m();
+    $data['socialmedia'] = $this->HomeModel->select_socialmedia_model_m();
+    $data['allcats']     = $this->HomeModel->select_all_categorys_model_m();
+    $data['allsubcats']  = $this->HomeModel->select_all_sub_categorys_model_m();
+    $data['subcatrelated'] = $this->HomeModel->select_sub_categories_by_category_m($cat_id);
+    $data['subcat_info'] = $this->HomeModel->select_sub_categories_details_model_m($subcat_id);
+
+    return view('public/header', $data)
+         . view('public/products_by_subcat', $data)
+         . view('public/footer');
+}
+
     public function subcat_bycat($cat_id)
     {
         $catId = (int) $cat_id;
@@ -593,27 +640,38 @@ class Home extends BaseController
     }
 
 
-    public function productdetails($product_id)
-    {
-        $data = array();
-        $data['page']        = "productdetails";
-        $data['about']       = $this->HomeModel->select_about_page_model_m();
-        $data['contactinfo'] = $this->HomeModel->select_contact_info_model_m();
-        $data['partner']      = $this->HomeModel->select_last_partner_model_m();
-        $data['socialmedia'] = $this->HomeModel->select_socialmedia_model_m();
-        $data['allcats']     = $this->HomeModel->select_all_categorys_model_m();
-        $data['allsubcats']  = $this->HomeModel->select_all_sub_categorys_model_m();
-        $data['services']    = $this->HomeModel->select_last_services_model_m();
+public function productdetails($product_id)
+{
+    $data = [];
+    $data['page']        = "productdetails";
+    $data['about']       = $this->HomeModel->select_about_page_model_m();
+    $data['contactinfo'] = $this->HomeModel->select_contact_info_model_m();
+    $data['partner']     = $this->HomeModel->select_last_partner_model_m();
+    $data['socialmedia'] = $this->HomeModel->select_socialmedia_model_m();
+    $data['allcats']     = $this->HomeModel->select_all_categorys_model_m();
+    $data['allsubcats']  = $this->HomeModel->select_all_sub_categorys_model_m();
+    $data['services']    = $this->HomeModel->select_last_services_model_m();
 
-        $data['product_info']    = $this->HomeModel->select_product_details_model_m($product_id);
-        $data['productgall']     = $this->HomeModel->select_gallery_product_model_m($product_id);
-        //echo "<pre>";print_r($data['productgall'] );die();
-        $data['product_related'] = $this->HomeModel->select_product_related_model_m($product_id, $data['product_info']['categories_id']);
+    // Current product + its gallery
+    $data['product_info'] = $this->HomeModel->select_product_details_model_m($product_id);
+    $data['productgall']  = $this->HomeModel->select_gallery_product_model_m($product_id);
 
-        return view('public/header', $data)
-            . view('public/productdetails', $data)
-            . view('public/footer');
-    }
+    // Related products
+    $data['product_related'] = $this->HomeModel->select_product_related_model_m(
+        $product_id,
+        $data['product_info']['categories_id']
+    );
+
+    // 👇 Build: first gallery image per related product (id => filename)
+    $relatedIds = array_column($data['product_related'], 'id');
+    $data['productFirstGallery'] = $this->HomeModel->select_first_gallery_images_by_product_ids($relatedIds);
+
+    return view('public/header', $data)
+         . view('public/productdetails', $data)
+         . view('public/footer');
+}
+
+
 
     public function services()
     {

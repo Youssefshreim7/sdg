@@ -1187,19 +1187,16 @@ body.is-loaded .preloader {
         width: 176px;
     }
 }
+
 @media (min-width: 1200px) {
     .brand-logo .brand-slider .brand-content span.brand-img img {
-        -webkit-filter: opacity(0.3) grayscale(1);
-        filter: opacity(0.3) grayscale(1);
-        -webkit-transition: filter 0.3s ease-in-out;
-        transition: filter 0.3s ease-in-out;
-    }
-    .brand-logo .brand-slider .brand-content:hover span.brand-img img {
         -webkit-filter: opacity(1) grayscale(0);
         filter: opacity(1) grayscale(0);
+        -webkit-transition: none;
+        transition: none;
     }
 }
-/************************************* footer-brand-logo css end *************************************/
+************************************* footer-brand-logo css end *************************************/
 
 /************************************* footer css start *************************************/
 /*====================================

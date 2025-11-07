@@ -310,7 +310,7 @@ public function select_feat_products_model_m()
             products.is_active = 1  and   products.is_blocked = 0  and   products.is_featured = 1
         ORDER BY
             products.id DESC
-        LIMIT 8
+        LIMIT 10
     ";
     return $this->db->query($str)->getResultArray();
 }
@@ -675,6 +675,39 @@ public function select_product_details_model_m($product_id)
     return $this->db->query($sql, [$product_id])->getRowArray();
 }
 
+// Model (HomeModel)
+public function select_first_gallery_images_by_product_ids(array $ids): array
+{
+    if (empty($ids)) {
+        return [];
+    }
+
+    // Build placeholders ? , ?, ...
+    $placeholders = implode(',', array_fill(0, count($ids), '?'));
+
+    // If you have a sort field, prefer it; fallback to MIN(id).
+    // This query fetches all active rows for the given products ordered by products_id then id,
+    // then we keep the first row per product in PHP.
+    $sql = "
+        SELECT products_id, photo
+        FROM products_gallery
+        WHERE is_active = 1
+          AND products_id IN ($placeholders)
+        ORDER BY products_id ASC, id ASC
+    ";
+
+    $rows = $this->db->query($sql, $ids)->getResultArray();
+
+    $first = [];
+    foreach ($rows as $r) {
+        $pid = (int)$r['products_id'];
+        if (!isset($first[$pid])) {
+            $first[$pid] = $r['photo']; // store only the first image per product
+        }
+    }
+
+    return $first; // [ product_id => 'image_file.jpg', ... ]
+}
 
 public function select_gallery_product_model_m($product_id)
 {
